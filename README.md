@@ -11,7 +11,9 @@ Text Parser for Dark and Darker
 
 
 py main.py
+
 Type the file name to open. [E.g. `hello.png`]
+
 trade.png
 
 `
