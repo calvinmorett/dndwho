@@ -7,7 +7,10 @@ import dxcam
 # opencv config
 myconfig = r"--psm 11 --oem 1"
 
-input_file = Image.open('da.png')
+print('Type the file name to open. [E.g. `hello.png`]')
+input_reply = input()
+
+input_file = Image.open(input_reply)
 output_file = ImageEnhance.Sharpness(input_file).enhance(2.9)
 saved = 'saved.png'
 output_file.save(saved)
